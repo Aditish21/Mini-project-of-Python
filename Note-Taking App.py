@@ -31,7 +31,7 @@ def veiw_notes():
 
 #step5: Delete all notes
 def delete_notes():
-    confirm= input("Are you sure you want to delete all notes? (Yes/n)")
+    confirm= input("Are you sure you want to delete all notes? (Yes/n): ")
     if confirm.lower() == "yes":
         with open(FILE_NAME,"w") as file:
             pass
